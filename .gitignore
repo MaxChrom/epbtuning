@@ -1,0 +1,29 @@
+# --- General ---
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+.DS_Store
+*.log
+*.sqlite
+*.sqlite-journal
+
+# --- Backend ---
+backend/node_modules/
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+backend/dist/
+backend/.env
+backend/*.log
+
+# --- Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/*.log
+
+# --- VSCode ---
+.vscode/
